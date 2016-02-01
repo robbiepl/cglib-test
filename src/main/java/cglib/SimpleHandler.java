@@ -16,7 +16,7 @@ public class SimpleHandler implements SimpleInterface<SomeRequest> {
     @AnnotationFirst
     @AnnotationSecond
     public SomeResponse handle(SomeRequest request) {
-        System.out.println("--- handle ---");
+        System.out.println("--- business code ---");
         return null;
     }
 

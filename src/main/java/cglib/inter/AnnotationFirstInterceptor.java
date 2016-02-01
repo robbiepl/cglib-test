@@ -4,7 +4,7 @@ import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 import org.slf4j.LoggerFactory;
 
-public class AnnotationFirstInter implements MethodInterceptor {
+public class AnnotationFirstInterceptor implements MethodInterceptor {
 
     static int counter = 0;
     org.slf4j.Logger LOGGER = LoggerFactory.getLogger(this.getClass());

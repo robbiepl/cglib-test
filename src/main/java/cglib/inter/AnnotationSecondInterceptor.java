@@ -5,7 +5,7 @@ import org.aopalliance.intercept.MethodInvocation;
 import org.slf4j.LoggerFactory;
 
 
-public class AnnotationSecondInter implements MethodInterceptor {
+public class AnnotationSecondInterceptor implements MethodInterceptor {
 
     org.slf4j.Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
